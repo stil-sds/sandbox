@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test af responsiv iframe med video</title>
+    <!--<link rel="preconnect" href="" crossorigin>-->
+    <link rel="preload" href="assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
+    <link rel="preload" href="assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/css/stil-baseline-2018.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/stil-baseline-2018.css"></noscript>
+    <link rel="preload" href="assets/css/stil-font-ibmplex.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/stil-font-ibmplex.css"></noscript>
+    <style>
+        html {}
+
+        body {}
+        .stil-size-s {
+            min-width:24rem;
+        }
+        .stil-size-m {
+            min-width:32rem;
+        }
+        .stil-size-l {
+            min-width:40rem;
+        }
+     .figure-iframe-container {
+            padding: 10px;
+            background: #eee
+        }
+
+        .figure-iframe-container figcaption {
+            padding: 20px;
+            text-align: center
+        }
+        .iframe-container {
+            position: relative;
+            padding-top: 56.25%;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            border: 0;
+        }
+
+        /* 4x3 Aspect Ratio */
+
+        .iframe-container-4x3 {
+            padding-top: 75%;
+        }
+
+   
+    </style>
+</head>
+
+<body>
+    <figure class="figure-iframe-container">
+        <div class="iframe-container">
+            <iframe src="https://www.youtube.com/embed/_CpUvVphgJI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <figcaption>Test af video</figcaption>
+    </figure>
+
+
+
+</body>
+
+</html>
