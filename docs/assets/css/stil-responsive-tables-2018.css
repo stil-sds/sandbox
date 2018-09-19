@@ -1,0 +1,166 @@
+/* STIL STANDARD TABLES */
+
+@media only screen {
+    .stil-folding-table {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-collapse: collapse;
+    }
+
+    .stil-folding-table caption {
+        margin: .5em 0 .75em;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .stil-folding-table th,
+    .stil-folding-table td {
+        padding: 6px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .stil-folding-table th {
+        font-weight: bold;
+        color: #000000;
+        background: #c4cbcf;
+        word-break: keep-all;
+    }
+
+    .stil-folding-table tr {
+        background: #ffffff;
+        padding: .35em;
+    }
+
+    .stil-folding-table tr:nth-of-type(odd) {
+        background: #e7ebed;
+    }
+
+    .stil-folding-table .transparent {
+        background: transparent
+    }
+
+    .stil-folding-table tfoot,
+    .stil-folding-table tfoot td {
+        padding: 10px 0 0 0;
+        font-size: 1.2rem;
+        border: none;
+        border-top: 1px solid #c4cbcf;
+        background: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .stil-folding-table {
+        max-width: 100%;
+        table-layout: fixed;
+    }
+    .truncate {
+        /* TRUNCATES THE HEADER ROWS TH CELLS */
+        display: block;
+        overflow: hidden;
+        width: 100px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .single-line {
+        min-width: 10rem;
+        max-width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* STIL STANDARD TABLES MOBILE AT 600PX LAYOUT */
+    /* CARD VERSION START */
+    .stil-folding-table thead {
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    .stil-folding-table tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #c4cbcf;
+    }
+
+    .stil-folding-table th,
+    .stil-folding-table td {
+        display: block;
+        border-bottom: 1px solid #c4cbcf;
+    }
+
+    .stil-folding-table td:before {
+        /* DUPLICATES TH DATA AND INSERTS INTO DATA CELL */
+        content: attr(data-label);
+        float: left;
+        width: 100%;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+
+    .stil-folding-table td:last-child {
+        border-bottom: 0;
+    }
+
+
+    .stil-folding-table .truncate {
+        /* TRUNCATES THE HEADER ROWS TH CELLS */
+        display: inline-block;
+        width: 300px;
+    }
+
+    .stil-folding-table tfoot,
+    .stil-folding-table tfoot td {
+        /* HIDES TFOOT ON MOBILE */
+        display: none;
+    }
+    /* CARD VERSION END */
+    /* STIL STANDARD TABLES AT 600PX END */
+}
+
+@media only screen and (max-width: 480px) {
+    /* FOLDING TABLE WIDTH */
+    .stil-folding-table {
+        min-width: 300px;
+    }
+}
+
+@media print {
+
+    .stil-folding-table {
+        max-width: 600pt;
+        border-collapse: collapse;
+    }
+
+    .stil-folding-table caption {
+        padding-bottom: 10pt;
+        text-align: left;
+    }
+    .stil-folding-table th,
+    .stil-fixed-col-table th {
+        padding: 5pt 10pt 5pt 0;
+        text-align: left;
+        vertical-align: top;
+        border-top: 1px solid #c4cbcf;
+    }
+
+    .stil-folding-table tr th {
+        break-inside: avoid;
+    }
+
+    .truncate {
+        display: inline-block;
+        width: auto;
+    }
+
+}

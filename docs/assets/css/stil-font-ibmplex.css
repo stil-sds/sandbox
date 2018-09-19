@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot");
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff") format("woff"), url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff2") format("woff2"), url("../fonts/IBMPlexSans/IBMPlexSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap
+}
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot");
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff") format("woff"), url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff2") format("woff2"), url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap
+}
+@font-face {
+    font-family: "IBMPlexSans";
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot");
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff") format("woff"), url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff2") format("woff2"), url("../fonts/IBMPlexSans/IBMPlexSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap
+}
+@font-face {
+  font-family: system;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap; 
+}
