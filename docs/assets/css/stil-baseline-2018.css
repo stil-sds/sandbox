@@ -1,870 +1,934 @@
 /* STIL COLORS */
-
 .hvid {
-    background: #fff;
-    color: #000;
+  background: #fff;
+  color: #000;
 }
 
 .antracit-1 {
-    color: #fff;
-    background: #141516;
+  color: #fff;
+  background: #141516;
 }
 
 .antracit-2 {
-    color: #fff;
-    background: #4f5355;
+  color: #fff;
+  background: #4f5355;
 }
 
 .antracit-3 {
-    color: #fff;
-    background: #717678;
+  color: #fff;
+  background: #717678;
 }
 
 .antracit-4 {
-    background: #c4cbcf;
+  background: #c4cbcf;
 }
 
 .antracit-5 {
-    background: #e7ebed;
+  background: #e7ebed;
 }
 
 .antracit-6 {
-    background: #f7f8f8;
+  background: #f7f8f8;
 }
 
 .blaa-1 {
-    color: #fff;
-    background: #212e39;
+  color: #fff;
+  background: #212e39;
 }
 
 .blaa-2 {
-    color: #fff;
-    background: #3e586e;
+  color: #fff;
+  background: #3e586e;
 }
 
 .blaa-3 {
-    background: #83a5bb;
+  background: #83a5bb;
 }
 
 .blaa-4 {
-    background: #b8cad5;
+  background: #b8cad5;
 }
 
 .blaa-5 {
-    background: #e9eff0;
+  background: #e9eff0;
 }
 
 .blaa-6 {
-    background: #f3f7f8;
+  background: #f3f7f8;
 }
 
 .havblaa-1 {
-    color: #fff;
-    background: #06324b;
+  color: #fff;
+  background: #06324b;
 }
 
 .havblaa-2 {
-    color: #fff;
-    background: #004e6c;
+  color: #fff;
+  background: #004e6c;
 }
 
 .havblaa-3 {
-    color: #fff;
-    background: #537A93;
+  color: #fff;
+  background: #537A93;
 }
 
 .havblaa-4 {
-    background: #b8d6df;
+  background: #b8d6df;
 }
 
 .havblaa-5 {
-    background: #e6f3f8;
+  background: #e6f3f8;
 }
 
 .havblaa-6 {
-    background: #f3f8fa;
+  background: #f3f8fa;
 }
 
 .groen-1 {
-    color: #fff;
-    background: #33826d;
+  color: #fff;
+  background: #33826d;
 }
 
 .groen-2 {
-    color: #fff;
-    background: #3a947c;
+  color: #fff;
+  background: #3a947c;
 }
 
 .groen-3 {
-    background: #98c0b7;
+  background: #98c0b7;
 }
 
 .groen-4 {
-    background: #b8d3cd;
+  background: #b8d3cd;
 }
 
 .groen-5 {
-    background: #e9f2ef;
+  background: #e9f2ef;
 }
 
 .groen-6 {
-    background: #f6fcfa;
+  background: #f6fcfa;
 }
 
 .jord-1 {
-    color: #fff;
-    background: #524631;
+  color: #fff;
+  background: #524631;
 }
 
 .jord-2 {
-    color: #fff;
-    background: #877454;
+  color: #fff;
+  background: #877454;
 }
 
 .jord-3 {
-    background: #e5decd;
+  background: #e5decd;
 }
 
 .jord-4 {
-    background: #f5f1e9;
+  background: #f5f1e9;
 }
 
 .jord-5 {
-    background: #f9f5f1;
+  background: #f9f5f1;
 }
 
 .orange-1 {
-    color: #fff;
-    background: #af3901;
+  color: #fff;
+  background: #af3901;
 }
 
 .orange-2 {
-    color: #fff;
-    background: #de790b;
+  color: #fff;
+  background: #de790b;
 }
 
 .orange-3 {
-    background: #f5e097;
+  background: #f5e097;
 }
 
 .orange-4 {
-    background: #f6edce;
+  background: #f6edce;
 }
 
 .orange-5 {
-    background: #fcf7e5;
+  background: #fcf7e5;
 }
 
 .roed-1 {
-    color: #fff;
-    background: #a42104;
+  color: #fff;
+  background: #a42104;
 }
 
 .roed-2 {
-    color: #fff;
-    background: #c64022;
+  color: #fff;
+  background: #c64022;
 }
 
 .roed-3 {
-    background: #e27c5a;
+  background: #e27c5a;
 }
 
 .roed-4 {
-    background: #f1b8a4;
+  background: #f1b8a4;
 }
 
 .roed-5 {
-    background: #f8e4dd;
+  background: #f8e4dd;
 }
 
-
-
 @media only screen {
-    * {
-        box-sizing: border-box;
-    }
+  * {
+    box-sizing: border-box;
+  }
 
-    html,
-    body {
-        height: 100%;
-    }
-    html {
-        font-size: 10px;
-        /* RESETS BASELINE FONT-SIZE */
-    }
+  html,
+  body {
+    height: 100%;
+  }
 
-    body {
-        margin: 0 auto;
-        font-family: "IBMPlexSans", "system";
-        font-size: 1.6rem;
-        font-weight: 400;
-        letter-spacing: 0.02rem;
-        line-height: 1.5;
-        color: #000;
-        -webkit-hyphens: auto;
-        -moz-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
-    }
+  html {
+    font-size: 10px;
+    /* RESETS BASELINE FONT-SIZE */
+  }
 
+  body {
+    margin: 0 auto;
+    font-family: "IBMPlexSans", "system";
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    color: #000;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
 
-    h1,
-    .stil-h1 {
-        margin: 0 0 1.6rem 0;
-        padding: 0;
-        font-weight: 700;
-        font-size: 3.2rem;
-        line-height: 4rem;
-    }
+  h1,
+  .stil-h1 {
+    margin: 0 0 1.6rem 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
 
-    h2,
-    .stil-h2 {
-        margin: 3.2rem 0 0.8rem 0;
-        padding: 0;
-        font-size: 2.6rem;
-        font-weight: 600;
-        line-height: 3.2rem;
-    }
+  h2,
+  .stil-h2 {
+    margin: 3.2rem 0 0.8rem 0;
+    padding: 0;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
 
-    .stil-col > h2,
-    .stil-col .stil-h2 {
-        margin-top: 0;
-    }
-    h3,
-    .stil-h3 {
-        margin: 1.6rem 0 0.8rem 0;
-        padding: 0;
-        font-weight: 600;
-        font-size: 2.2rem;
-        line-height: 3.2rem;
-    }
-    h4,
-    .stil-h4 {
-        margin: 0 0 0.8rem 0;
-        padding: 0;
-        font-weight: 600;
-        font-size: 1.9rem;
-        line-height: 3.2rem;
-    }
+  .stil-col>h2,
+  .stil-col .stil-h2 {
+    margin-top: 0;
+  }
 
-    h5,
-    .stil-h5 {
-        margin: 3.2rem 0 0 0;
-        padding: 0;
-        font-weight: 600;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  h3,
+  .stil-h3 {
+    margin: 1.6rem 0 0.8rem 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
 
-    h6,
-    .stil-h6 {
-        margin: 3.2rem 0 0 0;
-        padding: 0;
-        font-weight: 500;
-        font-size: 1.3rem;
-        line-height: 2.4rem;
-        text-transform: uppercase;
-    }
-    p {
-        max-width: 64rem;
-        /* MAX LINE-WIDTH FOR READABILITY */
-        margin: 0.8rem 0 3.2rem 0;
-        padding: 0;
-        font-weight: 400;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  h4,
+  .stil-h4 {
+    margin: 0 0 0.8rem 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    .manchet,
-    em {
-        max-width: 60ch;
-    }
+  h5,
+  .stil-h5 {
+    margin: 3.2rem 0 0 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 
-    address {
-        margin: 0 0 0.8rem 0;
-        padding: 0;
-        font-style: normal;
-    }
+  h6,
+  .stil-h6 {
+    margin: 3.2rem 0 0 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+  }
 
-    ul {
-        margin: 0.8rem 0 0.8rem 0;
-    }
-    li {
-        margin-bottom: 8px
-    }
-    .nobullet {
-        list-style-type: none;
-        margin: 0.8rem 0 3.2rem 0;
-        padding: 0;
-    }
-    .nobullet li {
-        margin-bottom: 0.8rem;
-    }
-    
-    .stil-footer .nobullet .em-light {
-        font-weight: 400; 
-    }
-    .stil-footer .nobullet span {
-        font-size:1.4rem;
-    }
+  p {
+    margin: 0.8rem 0 3.2rem 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 
-    dl {}
-    .stil-table {
-        table-layout: fixed;
-        width: 100%;
-        border-spacing: 0;
-        border-collapse: collapse
-    }
-    input,
-    textarea,
-    select,
-    button {
-        padding-left:0.5rem;
-        font-family: "IBMPlexSans", "system";
-        font-size: 1.6rem;
-        font-weight: 400;
-        letter-spacing: 0.02rem;
-        line-height: 1.5;
-        color: #000;
-        -webkit-hyphens: none;
-        -moz-hyphens: none;
-        -ms-hyphens: none;
-        hyphens: none;
-    }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  .manchet,
+  em {
+    max-width: 60ch;
+  }
 
-    .stil-table,
-    .stil-table caption,
-    th,
-    td {
-        vertical-align: top;
-        text-align: left;
-    }
-    .stil-table caption {
-        margin-bottom: 10px;
-        font-size: 1rem;
-    }
-    td {}
-    a {
-        text-decoration: underline;
-        text-underline-position:below;
-        color: #004e6c;
-        transition-duration: 0.2s;
-    }
+  address {
+    margin: 0 0 0.8rem 0;
+    padding: 0;
+    font-style: normal;
+  }
 
-    a:hover {
-        color: #000000;
-    }
+  ul {
+    margin: 0.8rem 0 0.8rem 0;
+  }
 
-    a.visited {
-        color: #3e586e;
-    }
-    button:focus,
-    input:focus,
-    select:focus,
-    .stil-topmenu a:focus,
-    .tile-link:focus,
-    .focus {
-        outline: 4px solid #febb30;
-        outline-offset: 0;
-    }
-    a:focus {
-        outline: none;
-        background: #febb30;
-    }
-    a.selected:focus {
-        outline:none;
-    }
-    .tile-link:hover {
-        opacity:0.9;
-    }
-    h1 a,
-    h2 a,
-    h3 a,
-    h4 a,
-    h5 a,
-    h6 a,
-    .manchet a,
-    em a,
-    a img,
-    .stil-topmenu a {
-        border-style: none
-    }
+  li {
+    margin-bottom: 8px
+  }
 
+  .nobullet {
+    list-style-type: none;
+    margin: 0.8rem 0 3.2rem 0;
+    padding: 0;
+  }
 
-    a.darkBG {
-        color: #c4cbcf;
-    }
+  .nobullet li {
+    margin-bottom: 0.8rem;
+  }
 
-    a.darkBG:hover {
-        background: #141516;
-    }
+  .stil-footer .nobullet .em-light {
+    font-weight: 400;
+  }
 
-    a.heading {
-        color: #141516;
-    }
+  .stil-footer .nobullet span {
+    font-size: 1.4rem;
+  }
 
-    a.heading:hover {
-        text-decoration: underline;
-    }
+  dl {}
 
-    a.stil-skipnav {
+  .stil-table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    padding-left: 0.5rem;
+    font-family: "IBMPlexSans", "system";
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    color: #000;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .stil-table,
+  .stil-table caption,
+  th,
+  td {
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .stil-table caption {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  td {}
+
+  a {
+    text-decoration: underline;
+    text-underline-position: below;
+    color: #004e6c;
+    transition-duration: 0.2s;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  a.visited {
+    color: #3e586e;
+  }
+
+  button:focus,
+  input:focus,
+  select:focus,
+  .stil-topmenu a:focus,
+  .tile-link:focus,
+  .focus {
+    outline: 4px solid #febb30;
+    outline-offset: 0;
+  }
+
+  a:focus {
+    outline: none;
+    background: #febb30;
+  }
+
+  a.selected:focus {
+    outline: none;
+  }
+
+  .tile-link:hover {
+    opacity: 0.9;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a,
+  .manchet a,
+  em a,
+  a img,
+  .stil-topmenu a {
+    border-style: none
+  }
+
+  a.darkBG {
+    color: #c4cbcf;
+  }
+
+  a.darkBG:hover {
+    background: #141516;
+  }
+
+  a.heading {
+    color: #141516;
+  }
+
+  a.heading:hover {
+    text-decoration: underline;
+  }
+
+  a.stil-skipnav {
     position: absolute;
     top: -45px;
     left: 0;
     padding: 1rem 1.5rem;
-        background: #004e6c;
+    background: #004e6c;
     color: #ffffff;
     transition: top 0.2s ease-in-out;
-        z-index: 100;
-    }
-    a.stil-skipnav:active, 
-    a.stil-skipnav:focus, 
-    a.stil-skipnav:hover {
-        left: 0; 
-        top: 0;
-        width: auto; 
-        height: auto; 
-        overflow: visible; 
-    }
-    .manchet {
-        margin: 0.8rem 0 4.8rem 0;
-        padding: 0;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 2rem;
-        line-height: 3.2rem;
-        color: #454545;
-    }
+    z-index: 100;
+  }
 
-    .manchet + p {
-        margin-top: 3.2rem;
-    }
+  a.stil-skipnav:active,
+  a.stil-skipnav:focus,
+  a.stil-skipnav:hover {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
 
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
+  .manchet {
+    margin: 0.8rem 0 4.8rem 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #454545;
+  }
 
-    /* MINIMAL FLEXBOX GRID */
-    section,
-    nav,
-    header,
-    footer,
-    .stil-row {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-        flex: 1 0 auto;
-        -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-        flex-flow: row nowrap;
-        align-items: stretch;
-        max-width: 1040px;
-        margin: 0 auto;
-        padding: 0 16px;
-    }
-    .stil-col {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 0;
-        min-width: 1px;
-        margin: 8px 0 8px 32px;
-        /* DO NOT EDIT UNLESS EDITING THE GRID */
-        padding: 0;
-    }
-    .stil-col:first-of-type,
-    .stil-row.stil-solid .stil-col:first-of-type {
-        margin-left: 0;
-    }
-    .stil-row.stil-solid .stil-col {
-        /* ADJUSTS GUTTERS ON BOXED LAYOUT*/
-        margin-left: 16px;
-    }
-    .stil-col:last-of-type {
-        margin-right: 0;
-    }
-    main .stil-row:first-of-type {
-        margin-top: 8px;
-    }
-    main .stil-row:last-of-type {
-        margin-bottom: 8px;
-    }
-    /* UNEVEN NUMBER OF STIL-COLS - 8/4 GRID - ADJUST ACCORDING TO ROW NUMBER */
-    /* .stil-row:nth-of-type(1) > .stil-col:first-of-type {
+  .manchet+p {
+    margin-top: 3.2rem;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* MINIMAL FLEXBOX GRID */
+  section,
+  nav,
+  header,
+  footer,
+  .stil-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .stil-col {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 1px;
+    margin: 8px 0 8px 32px;
+    /* DO NOT EDIT UNLESS EDITING THE GRID */
+    padding: 0;
+  }
+
+  .stil-col:first-of-type,
+  .stil-row.stil-solid .stil-col:first-of-type {
+    margin-left: 0;
+  }
+
+  .stil-row.stil-solid .stil-col {
+    /* ADJUSTS GUTTERS ON BOXED LAYOUT*/
+    margin-left: 16px;
+  }
+
+  .stil-col:last-of-type {
+    margin-right: 0;
+  }
+
+  main .stil-row:first-of-type {
+    margin-top: 8px;
+  }
+
+  main .stil-row:last-of-type {
+    margin-bottom: 8px;
+  }
+
+  /* UNEVEN NUMBER OF STIL-COLS - 8/4 GRID - ADJUST ACCORDING TO ROW NUMBER */
+  /* .stil-row:nth-of-type(1) > .stil-col:first-of-type {
         flex-grow: 2;
         flex-shrink: 2;
         flex-basis: 16px;
     }
     /* UNEVEN NUMBER OF STIL-COLS - 4/8 GRID - ADJUST ACCORDING TO ROW NUMBER */
-    /*.stil-row:nth-of-type(4) .stil-col:last-of-type {
+  /*.stil-row:nth-of-type(4) .stil-col:last-of-type {
         flex-grow: 2;
         flex-shrink: 2;
         flex-basis: 16px;
     }
     /* UNEVEN NUMBER END */
-    .stil-margin {
-        margin: 0 16px;
-        padding: 8px 0;
-    }
-    .stil-minus-margin {
-        margin: 0;
-        padding: 0;
-    }
-    .stil-full-width {
-        /* DRAWS HORISONTAL BORDERS LIKE FSG */
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border-bottom: 1px solid #c4cbcf;
-    }
-    /* MINIMAL FLEXBOX GRID, END */
-    .stil-header {
-        margin: 0 auto;
-        align-items: baseline
-    }
-    .stil-header .stil-col {
-        margin-bottom: 0;
-    }
-    .stil-tjeneste-navn {
-        margin: 16px 0;
-        font-size: 2.8rem;
-        font-style: normal;
-        font-weight: 700;
-        white-space: nowrap;
-    }
-    .stil-tjeneste-navn a,
-    .stil-tjeneste-navn a:hover {
-        color: #000000;
-        text-decoration: none;
-        border-style: none;
-    }
+  .stil-margin {
+    margin: 0 16px;
+    padding: 8px 0;
+  }
 
-    .stil-tjeneste-navn a:hover {
-        background: transparent;
-    }
-    .stil-logo,
-    .stil-logo:hover {
-        border-style: none;
-    }
-    .stil-logo img {
-        height: 80px;
-        width: auto;
-    }
-    .stil-header .stil-col:last-of-type {
-        text-align: right;
-    }
+  .stil-minus-margin {
+    margin: 0;
+    padding: 0;
+  }
 
-   /* .stil-logged-in-user {
+  .stil-full-width {
+    /* DRAWS HORISONTAL BORDERS LIKE FSG */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #c4cbcf;
+  }
+
+  /* MINIMAL FLEXBOX GRID, END */
+  .stil-header {
+    margin: 0 auto;
+    align-items: baseline
+  }
+
+  .stil-header .stil-col {
+    margin-bottom: 0;
+  }
+
+  .stil-tjeneste-navn {
+    margin: 16px 0;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .stil-tjeneste-navn a,
+  .stil-tjeneste-navn a:hover {
+    color: #000000;
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .stil-tjeneste-navn a:hover {
+    background: transparent;
+  }
+
+  .stil-logo,
+  .stil-logo:hover {
+    border-style: none;
+  }
+
+  .stil-logo img {
+    height: 80px;
+    width: auto;
+  }
+
+  .stil-header .stil-col:last-of-type {
+    text-align: right;
+  }
+
+  /* .stil-logged-in-user {
         margin: 0 8px 0 0;
         font-size: 1.4rem;
     }*/
-    .stil-topmenu {
-        align-items: center;
-        height: 47px;
-        margin-top: 0;
-    }
-    .stil-topmenu .stil-col { 
-        display: flex;
-        flex-wrap: nowrap;
-        flex-grow: 2;
-        flex-shrink: 2;
-        flex-basis: auto;
-        align-items: center;
-        margin: 8px 0 8px 0;
-        padding: 0;
-    }
-    .stil-topmenu .stil-col:last-of-type { 
-        justify-content: flex-end;
-    }
-    .stil-topmenu a {
-        margin-right:16px;
-        padding: 11px 0 6px 0;
-        font-size: 1.6rem;
-        font-weight: 400;
-        white-space: nowrap;
-        text-decoration: none;
-        color: #4f5355;
-        background: #ffffff;
-        border-bottom:6px solid #fff;
-    }
+  .stil-topmenu {
+    align-items: center;
+    height: 47px;
+    margin-top: 0;
+  }
 
-    .stil-topmenu a:hover {
-        color: #004e6c;
-        border-bottom: 6px solid #004e6c;
-    }
-    .stil-topmenu a.selected {
-        font-weight:600;
-        color: #004e6c;
-        border-bottom: 6px solid #004e6c;
-    }
-    .stil-primary-button {
-        display: inline-block;
-        padding: 6px 16px;
-        font-size: 1.6rem;
-        font-weight: 400;
-        text-decoration: none;
-        border-radius: 4px;
-        border: 2px solid #000;
-    }
+  .stil-topmenu .stil-col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: auto;
+    align-items: center;
+    margin: 8px 0 8px 0;
+    padding: 0;
+  }
 
-    .stil-primary-button:hover {
-        background: #4f5355;
-    }
+  .stil-topmenu .stil-col:last-of-type {
+    justify-content: flex-end;
+  }
 
-    .single-line {
-        display: block;
-        min-width: 15rem;
-        max-width: 20rem;
-        word-wrap: break-word;
-    }
+  .stil-topmenu a {
+    margin-right: 16px;
+    padding: 11px 0 6px 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #4f5355;
+    background: #ffffff;
+    border-bottom: 6px solid #fff;
+  }
 
-    .stil-footer .stil-col {
-        background: #fff;
-    }
-    
-     .stil-footer .stil-col .stil-h4 { /* PGA JUSTERET TYPOGRAFI */
-        font-size:1.6rem;
-    }
+  .stil-topmenu a:hover {
+    color: #004e6c;
+    border-bottom: 6px solid #004e6c;
+  }
 
-    .stil-footer em {
-        display: block;
-        margin-top: 0;
-        font-size: 1.6rem;
-    }
+  .stil-topmenu a.selected {
+    font-weight: 600;
+    color: #004e6c;
+    border-bottom: 6px solid #004e6c;
+  }
 
-    .stil-footer p {
-        margin: 0;
-        padding: 0 0 16px 0;
-    }
+  .stil-primary-button {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid #000;
+  }
 
-    .stil-footer a {
-        display: inline-block;
-    }
+  .stil-primary-button:hover {
+    background: #4f5355;
+  }
 
-    /* PICTURE BOXES AND TILES */
-    .stil-imager-l,
-    .stil-imager-s {
-        height: 232px;
-        width: 100%;
-        background: no-repeat center center;
-        -webkit-background-size: cover;
-        background-size: cover;
-    }
-    .stil-tile-s {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 144px;
-        padding: 16px;
-        font-size: 4rem;
-        font-weight: 600;
-        line-height: 4.8rem;
-        border-radius: 4px;
-    }
-    .stil-tile-m {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 120px;
-        padding: 16px;
-        font-size: 3.2rem;
-        font-weight: 600;
-        line-height: 4rem;
-        border-radius: 4px;
-    }
-    .stil-tile-l {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 232px;
-        padding: 16px;
-        font-size: 4rem;
-        font-weight: 600;
-        line-height: 4.8rem;
-        border-radius: 4px;
-    }
-    .stil-tile-s span:first-child {
-        flex-grow: 1;
-        margin-bottom: auto;
-    }
-    .stil-tile-s span:last-child {
-        margin-top: auto;
-        padding: 0;
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  .single-line {
+    display: block;
+    min-width: 15rem;
+    max-width: 20rem;
+    word-wrap: break-word;
+  }
+
+  .stil-footer .stil-col {
+    background: #fff;
+  }
+
+  .stil-footer .stil-col .stil-h4 {
+    /* PGA JUSTERET TYPOGRAFI */
+    font-size: 1.6rem;
+  }
+
+  .stil-footer em {
+    display: block;
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  .stil-footer p {
+    margin: 0;
+    padding: 0 0 16px 0;
+  }
+
+  .stil-footer a {
+    display: inline-block;
+  }
+
+  /* PICTURE BOXES AND TILES */
+  .stil-imager-l,
+  .stil-imager-s {
+    height: 232px;
+    width: 100%;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .stil-tile-s {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 144px;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-m {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    padding: 16px;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-l {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 232px;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-s span:first-child {
+    flex-grow: 1;
+    margin-bottom: auto;
+  }
+
+  .stil-tile-s span:last-child {
+    margin-top: auto;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-    .single-line {
-        min-width: 10rem;
-        max-width: 20rem;
-    }
+  .single-line {
+    min-width: 10rem;
+    max-width: 20rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .hide-on-mobile {
-        display: none;
-    }  
-    .stil-logo {
+  .hide-on-mobile {
     display: none;
   }
-    .stil-tjeneste-navn {
-        font-size:2.2rem;
+
+    .stil-header {        
+    align-items: center;
     }
 
-    a.selected {
-        font-weight: 700;
-        border-bottom:none;        
-    }
-    
-    button:focus,
-    input:focus,
-    select:focus,
-    .stil-topmenu a:focus,
-    .tile-link:focus,
-    a.selected:focus {    
-        outline: none;
-    }
+  .stil-logo {
+    display: none;
+  }
+
+  .stil-tjeneste-navn {
+    font-size: 2.2rem;
+  }
+
+  a.selected {
+    font-weight: 700;
+    border-bottom: none;
+  }
+
+  button:focus,
+  input:focus,
+  select:focus,
+  .stil-topmenu a:focus,
+  .tile-link:focus,
+  a.selected:focus {
+    outline: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    h1 {
-        padding-top: 1rem;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-    }
-    h2 {
-        padding-top: 1rem;
-        font-size: 2rem;
-        line-height: 3.2rem;
-    }
-    .manchet {
-        margin-bottom: 2.4rem;
-        font-size: 1.8rem;
-        line-height: 2.4rem;
-    }
-    .stil-full-width:nth-of-type(2) {
-        border-style: none;
-    }
-    .stil-header {
-        margin-top: 16px;
-        margin-bottom: 8px;
-        border-style: none;
-    }
-    .stil-header em {
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
-    .stil-topmenu,
-    .stil-logo {
-        display: none;
-    }
-    .stil-col {
-        flex-basis: auto;
-    }
-    main {
-        margin-bottom: 16px;
-    }
-    main .stil-row,
-    footer {
-        flex-wrap: wrap;
-    }
-    main .stil-col,
-    .stil-row.stil-solid .stil-col,
-    .stil-footer .stil-col {
-        margin-left: 0;
-        margin-bottom: 8px;
-        flex-basis: auto;
-        width: 100%;
-    }
-    .stil-footer .stil-col {
-        background: #fff;
-    }
+  h1 {
+    padding-top: 1rem;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
 
-    .stil-footer em {
-        font-size: 1.4rem;
-        margin: 10px 0 0 0;
-    }
-    .stil-footer p, .stil-footer ul li {
-        padding-bottom: 0;
-    }
+  h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
 
-    .stil-tile-s {
-        height: 80px;
-        padding: 8px;
-        font-size: 2.4rem;
-        font-weight: 700;
-        line-height: 3.2rem;
-        border-radius: 4px;
-    }
+  .manchet {
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+
+  .stil-full-width:nth-of-type(2) {
+    border-style: none;
+  }
+
+  .stil-header {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    border-style: none;
+  }
+
+  .stil-header em {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .stil-topmenu,
+  .stil-logo {
+    display: none;
+  }
+
+  .stil-col {
+    flex-basis: auto;
+  }
+
+  main {
+    margin-bottom: 16px;
+  }
+
+  main .stil-row,
+  footer {
+    flex-wrap: wrap;
+  }
+
+  main .stil-col,
+  .stil-row.stil-solid .stil-col,
+  .stil-footer .stil-col {
+    margin-left: 0;
+    margin-bottom: 8px;
+    flex-basis: auto;
+    width: 100%;
+  }
+
+  .stil-footer .stil-col {
+    background: #fff;
+  }
+
+  .stil-footer em {
+    font-size: 1.4rem;
+    margin: 10px 0 0 0;
+  }
+
+  .stil-footer p, .stil-footer ul li {
+    padding-bottom: 0;
+  }
+
+  .stil-tile-s {
+    height: 80px;
+    padding: 8px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    border-radius: 4px;
+  }
 }
 
 @media print {
-    body {
-        font-family: arial, sans-serif;
-    }
-    a {
-        text-decoration: none;
-        color: #000;
-    }
-    .stil-header {
-        float: left;
-        width: 100%;
-        margin-bottom: 20pt;
-        padding-bottom: 5pt;
-        border-bottom: 1pt solid #000;
-    }
-    .stil-header-content em {
-        font-weight: 700;
-        font-style: normal;
-    }
-    .stil-topmenu,
-    .stil-global-search,
-    .stil-header img,
-    .stil-tile-s,
-    .stil-tile-l {
-        display: none;
-    }
+  body {
+    font-family: arial, sans-serif;
+  }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    p,
-    ul {
-        max-width: 600pt;
-    }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
 
-    p {
-        font-size: 13pt;
-    }
+  .stil-header {
+    float: left;
+    width: 100%;
+    margin-bottom: 20pt;
+    padding-bottom: 5pt;
+    border-bottom: 1pt solid #000;
+  }
 
-    .stil-footer {
-        clear: both;
-        float: left;
-        width: 100%;
-        margin-top: 50pt;
-        border-top: 1px solid #000;
-    }
-    .stil-footer em {
-        font-style: normal;
-        font-weight: 700;
-        padding-bottom: 0;
-    }
-    .stil-footer:nth-child(n+2) {
-        display: none;
-    }
+  .stil-header-content em {
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .stil-topmenu,
+  .stil-global-search,
+  .stil-header img,
+  .stil-tile-s,
+  .stil-tile-l {
+    display: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    max-width: 600pt;
+  }
+
+  p {
+    font-size: 13pt;
+  }
+
+  .stil-footer {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 50pt;
+    border-top: 1px solid #000;
+  }
+
+  .stil-footer em {
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 0;
+  }
+
+  .stil-footer:nth-child(n+2) {
+    display: none;
+  }
 }
