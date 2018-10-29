@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang=da>
+<head>
+    <title>STIL designsystem</title>
+    <!-- CSS FOR FAST LOADING -->
+    <style>
+    
+    @media only screen {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    height: 100%;
+  }
+
+  html {
+    font-size: 10px;
+  }
+
+  body {
+    margin: 0 auto;
+    font-family: "IBMPlexSans", "system";
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    color: #000;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  h1,
+  .stil-h1 {
+    margin: 0 0 1.6rem 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+
+  h2,
+  .stil-h2 {
+    margin: 3.2rem 0 0.8rem 0;
+    padding: 0;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+  }
+
+  .stil-col>h2,
+  .stil-col .stil-h2 {
+    margin-top: 0;
+  }
+
+  h3,
+  .stil-h3 {
+    margin: 1.6rem 0 0.8rem 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
+
+  h4,
+  .stil-h4 {
+    margin: 0 0 0.8rem 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
+
+  h5,
+  .stil-h5 {
+    margin: 3.2rem 0 0 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  h6,
+  .stil-h6 {
+    margin: 3.2rem 0 0 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0.8rem 0 3.2rem 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  .manchet,
+  em {
+    max-width: 60ch;
+  }
+
+  address {
+    margin: 0 0 0.8rem 0;
+    padding: 0;
+    font-style: normal;
+  }
+
+  ul {
+    margin: 0.8rem 0 0.8rem 0;
+  }
+
+  li {
+    margin-bottom: 8px
+  }
+
+  .nobullet {
+    list-style-type: none;
+    margin: 0.8rem 0 3.2rem 0;
+    padding: 0;
+  }
+
+  .nobullet li {
+    margin-bottom: 0.8rem;
+  }
+
+  .stil-footer .nobullet .em-light {
+    font-weight: 400;
+  }
+
+  .stil-footer .nobullet span {
+    font-size: 1.4rem;
+  }
+  .stil-table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    padding-left: 0.5rem;
+    font-family: "IBMPlexSans", "system";
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    color: #000;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .stil-table,
+  .stil-table caption,
+  th,
+  td {
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .stil-table caption {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: underline;
+    text-underline-position: below;
+    color: #004e6c;
+    transition-duration: 0.2s;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  a.visited {
+    color: #3e586e;
+  }
+
+  button:focus,
+  input:focus,
+  select:focus,
+  .stil-topmenu a:focus,
+  .tile-link:focus,
+  .focus {
+    outline: 4px solid #febb30;
+    outline-offset: 0;
+  }
+
+  a:focus {
+    outline: none;
+    background: #febb30;
+  }
+
+  a.selected:focus {
+    outline: none;
+  }
+
+  .tile-link:hover {
+    opacity: 0.9;
+  }
+
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a,
+  .manchet a,
+  em a,
+  a img,
+  .stil-topmenu a {
+    border-style: none
+  }
+
+  a.darkBG {
+    color: #c4cbcf;
+  }
+
+  a.darkBG:hover {
+    background: #141516;
+  }
+
+  a.heading {
+    color: #141516;
+  }
+
+  a.heading:hover {
+    text-decoration: underline;
+  }
+
+  a.stil-skipnav {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    padding: 1rem 1.5rem;
+    background: #004e6c;
+    color: #ffffff;
+    transition: top 0.2s ease-in-out;
+    z-index: 100;
+  }
+
+  a.stil-skipnav:active,
+  a.stil-skipnav:focus,
+  a.stil-skipnav:hover {
+    left: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  .manchet {
+    margin: 0.8rem 0 4.8rem 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    color: #454545;
+  }
+
+  .manchet+p {
+    margin-top: 3.2rem;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* MINIMAL FLEXBOX GRID */
+  section,
+  nav,
+  header,
+  footer,
+  .stil-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    -webkit-flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .stil-col {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    min-width: 1px;
+    margin: 8px 0 8px 32px;
+    padding: 0;
+  }
+
+  .stil-col:first-of-type,
+  .stil-row.stil-solid .stil-col:first-of-type {
+    margin-left: 0;
+  }
+
+  .stil-row.stil-solid .stil-col {
+    margin-left: 16px;
+  }
+
+  .stil-col:last-of-type {
+    margin-right: 0;
+  }
+
+  main .stil-row:first-of-type {
+    margin-top: 8px;
+  }
+
+  main .stil-row:last-of-type {
+    margin-bottom: 8px;
+  }
+  .stil-margin {
+    margin: 0 16px;
+    padding: 8px 0;
+  }
+
+  .stil-minus-margin {
+    margin: 0;
+    padding: 0;
+  }
+
+  .stil-full-width {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #c4cbcf;
+  }
+
+  /* MINIMAL FLEXBOX GRID, END */
+  .stil-header {
+    margin: 0 auto;
+    align-items: baseline
+  }
+
+  .stil-header .stil-col {
+    margin-bottom: 0;
+  }
+
+  .stil-tjeneste-navn {
+    margin: 16px 0;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .stil-tjeneste-navn a,
+  .stil-tjeneste-navn a:hover {
+    color: #000000;
+    text-decoration: none;
+    border-style: none;
+  }
+
+  .stil-tjeneste-navn a:hover {
+    background: transparent;
+  }
+
+  .stil-logo,
+  .stil-logo:hover {
+    border-style: none;
+  }
+
+  .stil-logo img {
+    height: 80px;
+    width: auto;
+  }
+
+  .stil-header .stil-col:last-of-type {
+    text-align: right;
+  }
+  .stil-topmenu {
+    align-items: center;
+    height: 47px;
+    margin-top: 0;
+  }
+
+  .stil-topmenu .stil-col {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: auto;
+    align-items: center;
+    margin: 8px 0 8px 0;
+    padding: 0;
+  }
+
+  .stil-topmenu .stil-col:last-of-type {
+    justify-content: flex-end;
+  }
+
+  .stil-topmenu a {
+    margin-right: 16px;
+    padding: 11px 0 6px 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #4f5355;
+    background: #ffffff;
+    border-bottom: 6px solid #fff;
+  }
+
+  .stil-topmenu a:hover {
+    color: #004e6c;
+    border-bottom: 6px solid #004e6c;
+  }
+
+  .stil-topmenu a.selected {
+    font-weight: 600;
+    color: #004e6c;
+    border-bottom: 6px solid #004e6c;
+  }
+
+  .stil-primary-button {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid #000;
+  }
+
+  .stil-primary-button:hover {
+    background: #4f5355;
+  }
+
+  .single-line {
+    display: block;
+    min-width: 15rem;
+    max-width: 20rem;
+    word-wrap: break-word;
+  }
+
+  .stil-footer .stil-col {
+    background: #fff;
+  }
+
+  .stil-footer .stil-col .stil-h4 {
+    font-size: 1.6rem;
+  }
+
+  .stil-footer em {
+    display: block;
+    margin-top: 0;
+    font-size: 1.6rem;
+  }
+
+  .stil-footer p {
+    margin: 0;
+    padding: 0 0 16px 0;
+  }
+
+  .stil-footer a {
+    display: inline-block;
+  }
+
+  /* PICTURE BOXES AND TILES */
+  .stil-imager-l,
+  .stil-imager-s {
+    height: 232px;
+    width: 100%;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .stil-tile-s {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 144px;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-m {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    padding: 16px;
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-l {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 232px;
+    padding: 16px;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    border-radius: 4px;
+  }
+
+  .stil-tile-s span:first-child {
+    flex-grow: 1;
+    margin-bottom: auto;
+  }
+
+  .stil-tile-s span:last-child {
+    margin-top: auto;
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!--<link rel="preconnect" href="" crossorigin>--> 
+    <link rel="preload" href="assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff" as="font" crossorigin>
+    <link rel="preload" href="assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+    <body>
+        <a class="stil-skipnav" href="#main-content">Gå til indhold</a>       
+        <div class="stil-full-width">
+            <header class="stil-row stil-header">
+                <div class="stil-col">
+                    <em class="stil-tjeneste-navn"><a href="">STIL designsystem</a></em>
+                </div>
+                <div class="stil-col">
+                    <a href="" class="stil-logo">
+                        <img src="assets/img/logo/stil.svg" alt="Logo for Styrelsen for it og læring" title="Gå til Styrelsen for it og lærings forside">
+                    </a>
+                </div>
+            </header>
+        </div>
+        <div class="stil-full-width">
+            <nav class="stil-topmenu">
+                <div class="stil-col">
+                    <a href="" class="selected">Forside</a>
+                    <a href="https://github.com/stil-ux-team/sdp/tree/master/docs">Dokumentation</a>
+                </div>
+                <div class="stil-col">
+                    <input type="button" value="Log ind" class="stil-primary-button antracit-1">
+                </div>
+            </nav>
+        </div>
+        <div class="stil-full-width">
+        <main id="main-content">
+            <div class="stil-row">
+                <div class="stil-col">
+                    <h1>Velkommen til STIL designsystem, high performance løsning</h1>
+                    <p class="manchet">
+                        Her finder du demosider og dokumentation om anvendelsen af STIL designsystem.
+                    </p>
+                    <h2>Demosider</h2>
+                    <ul class="nobullet">
+                        <li><a href="praktikpladsen-forside">PMS forside</a></li>
+                        <li><a href="stil-table.html">Demo af minimal, responsiv tabel</a></li>
+                    </ul>
+                    <h2>Dokumentation</h2>
+                    <p>
+                       <a href="https://github.com/stil-ux-team/sdp/tree/master/docs">GitHub</a>
+                    </p>
+                </div>
+            </div>
+            <div class="stil-row">
+                <div class="stil-col">
+                    <h2>Tabel, der folder med heading</h2>
+                <table class="stil-folding-table">
+                    <caption>Ledige praktikpladser</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col truncate">
+                                <div class="truncate">Virksomhed</div>
+                            </th>
+                            <th scope="col">
+                                <div class="truncate">Adresse</div>
+                            </th>
+                            <th scope="col">
+                                <div class="truncate">Stillingsopslag</div>
+                            </th>
+                            <th scope="col">
+                                <div class="truncate">Jobbeskrivelse</div>
+                            </th>
+                            <th scope="col">
+                                <div class="truncate">Hjemmeside</div>
+                            </th>
+                            <th scope="col">
+                                <div class="truncate">Frist</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" data-label="Virksomhed" class="transparent">   
+                                <div class="truncate">Entreprenørforretning</div>
+                            </th>
+                            <td data-label="Adresse">   
+                                <span class="single-line">Lipsumvej 911</span>
+                                <span class="single-line">1000 Sønder Bavelse</span> 
+                                <span class="single-line">Region Midtjylland</span>
+                            </td>
+                            <td data-label="Stillingsopslag">   
+                                <div class="truncate"><a href="">Anlægsstruktør</a></div>
+                            </td>
+                            <td data-label="Jobbeskrivelse">   
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt felis risus, vitae maximus diam lobortis accumsan. Maecenas semper, ipsum tristique ultricies porttitor, eros nunc fermentum ligula, quis congue purus dolor at arcu. Donec vel tristique enim, non pulvinar urna. 
+                            </td>
+                            <td data-label="Hjemmeside">   
+                                <a href="">www.vibyggerting.dk</a>
+                            </td>
+                            <td data-label="Frist">   
+                                01.06.2018
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" data-label="Virksomhed" class="transparent">   
+                                <div class="truncate">Entreprenøriet Aps</div>
+                            </th>
+                            <td data-label="Adresse">   
+                                <span class="single-line">Nedfaldsvej 3</span>
+                                <span class="single-line">Overdet Hele</span>
+                                <span class="single-line">9971 Sikkenoget</span> 
+                                <span class="single-line">Region Nordjylland</span>
+                            </td>
+                            <td data-label="Stillingsopslag">   
+                                <div class="truncate"><a href="">Anlægsstruktør lærling</a></div>
+                            </td>
+                            <td data-label="Jobbeskrivelse">   
+                                Curabitur elementum mi facilisis felis scelerisque, at convallis dui elementum. Ut auctor dui nec ornare consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                            </td>
+                            <td data-label="Hjemmeside">   
+                                <a href="">www.jamendog.dk</a>
+                            </td>
+                            <td data-label="Frist">   
+                                01.05.2018
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="6">
+                                19. marts, 2018
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                </div>
+            </div>
+            
+        </main> 
+        </div>    
+            <footer class="stil-footer">
+            <div class="stil-col">
+                <h3 class="stil-h4">Ansvarlig myndighed</h3>
+                Styrelsen for it og læring<br>
+                <p>Vester Voldgade 123<br>
+                    1552 København V<br>
+                </p>
+            </div>
+            <div class="stil-col">
+                <h3 class="stil-h4">Hjælpende links</h3>
+                <ul class="nobullet">
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="stil-col">
+                <h3 class="stil-h4">Telefonisk support</h3>
+                <ul class="nobullet">
+                    <li>
+                        <em class="em-light"></em>
+                        <span><a href="tel:+"></a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="stil-col">
+                <h3 class="stil-h4">Skriftlig kontakt</h3>
+                <ul class="nobullet">
+                    <li>
+                        <a href=""></a>
+   
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <link rel="preload" href="assets/css/stil-baseline-2018.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/stil-baseline-2018.css"></noscript>
+<link rel="preload" href="assets/css/stil-font-ibmplex.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="assets/css/stil-font-ibmplex.css"></noscript>
+<link rel="preload" href="assets/css/stil-responsive-tables-2018.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript> <link rel="stylesheet" type="text/css" href="assets/css/stil-responsive-tables-2018.css"></noscript>
+</body>
+</html>
