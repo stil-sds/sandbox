@@ -282,7 +282,7 @@
   p,
   .manchet,
   em {
-    max-width: 60ch;
+    max-width: 66ch;
   }
 
   address {
@@ -518,7 +518,7 @@
   }
 
   main .stil-row:last-of-type {
-    margin-bottom: 8px;
+    margin-bottom: 24px;
   }
 
   /* UNEVEN NUMBER OF STIL-COLS - 8/4 GRID - ADJUST ACCORDING TO ROW NUMBER */
@@ -665,12 +665,15 @@
   }
 
   .stil-footer .stil-col {
+    padding-top:24px;  
+      margin-top:0;
     background: #fff;
   }
 
   .stil-footer .stil-col .stil-h4 {
     /* PGA JUSTERET TYPOGRAFI */
     font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 
   .stil-footer em {
@@ -686,6 +689,7 @@
 
   .stil-footer a {
     display: inline-block;
+      color:#000;
   }
 
   /* PICTURE BOXES AND TILES */
@@ -762,7 +766,22 @@
     .stil-header {        
     align-items: center;
     }
-
+    .stil-footer {
+    flex-wrap: wrap;
+        
+    }
+    
+.stil-footer, .stil-footer .stil-col {
+        background: #f7f8f8;
+        }  
+    .stil-footer .stil-col {
+    flex-basis: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 8px;
+  }
+    
+  
   .stil-logo {
     display: none;
   }
@@ -833,8 +852,7 @@
     margin-bottom: 16px;
   }
 
-  main .stil-row,
-  footer {
+  main .stil-row {
     flex-wrap: wrap;
   }
 
@@ -847,9 +865,9 @@
     width: 100%;
   }
 
-  .stil-footer .stil-col {
+ /* .stil-footer .stil-col {
     background: #fff;
-  }
+  }*/
 
   .stil-footer em {
     font-size: 1.4rem;
