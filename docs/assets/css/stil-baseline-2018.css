@@ -484,7 +484,8 @@
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     align-items: stretch;
-    max-width: 1040px;
+    min-width: 320px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
   }
@@ -545,7 +546,7 @@
   }
 
   .stil-full-width {
-    /* DRAWS HORISONTAL BORDERS LIKE FSG */
+    /* DRAWS HORISONTAL BORDERS */
     width: 100%;
     margin: 0;
     padding: 0;
