@@ -1,180 +1,233 @@
+/* FDS - IBM Plex Sans*/
+
+@font-face {
+    font-family: "IBMPlexSans";
+    /*src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot");*/
+    src:url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff2") format("woff2"), 
+        url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff") format("woff"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "IBMPlexSans";
+   /* src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot");*/
+    src:url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff2") format("woff2"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff") format("woff"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "IBMPlexSans";
+   /* src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot");*/
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff2") format("woff2"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff") format("woff"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap
+}
+
+@font-face {
+    font-family: system;
+    src: local(".SFNSText-Light"),
+        local(".HelveticaNeueDeskInterface-Light"),
+        local(".LucidaGrandeUI"),
+        local("Ubuntu Light"),
+        local("Segoe UI Light"),
+        local("Roboto-Light"),
+        local("DroidSans"),
+        local("Tahoma");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 /* STIL COLORS */
 
 .hvid {
-    background: #fff;
     color: #000;
+    background: hsla(360, 100%, 100%, 1);
 }
 
 .antracit-1 {
     color: #fff;
-    background: #141516;
+    background: hsla(200, 4%, 32%, 1);
 }
 
 .antracit-2 {
     color: #fff;
-    background: #4f5355;
+    background: hsla(200, 4%, 32%, 1);
 }
 
 .antracit-3 {
     color: #fff;
-    background: #717678;
+    background: hsla(197, 3%, 46%, 1);
 }
 
 .antracit-4 {
-    background: #c4cbcf;
+    background: hsla(202, 10%, 79%, 1);
 }
 
 .antracit-5 {
-    background: #e7ebed;
+    background: hsla(200, 14%, 92%, 1);
 }
 
 .antracit-6 {
-    background: #f7f8f8;
+    background: hsla(180, 7%, 97%, 1);
 }
 
 .blaa-1 {
     color: #fff;
-    background: #212e39;
+    background: hsla(208, 27%, 18%, 1);
 }
 
 .blaa-2 {
     color: #fff;
-    background: #3e586e;
+    background: hsla(208, 28%, 34%, 1);
 }
 
 .blaa-3 {
-    background: #83a5bb;
+    background: hsla(204, 29%, 62%, 1);
 }
 
 .blaa-4 {
-    background: #b8cad5;
+    background: hsla(203, 26%, 78%, 1);
 }
 
 .blaa-5 {
-    background: #e9eff0;
+    background: hsla(189, 19%, 93%, 1);
 }
 
 .blaa-6 {
-    background: #f3f7f8;
+    background: hsla(192, 26%, 96%, 1);
 }
 
 .havblaa-1 {
     color: #fff;
-    background: #06324b;
+    background: hsla(202, 85%, 16%, 1);
 }
 
 .havblaa-2 {
     color: #fff;
-    background: #004e6c;
+    background: hsla(197, 100%, 21%, 1);
 }
 
 .havblaa-3 {
     color: #fff;
-    background: #537A93;
+    background: hsla(195, 28%, 65%, 1);
 }
 
 .havblaa-4 {
-    background: #b8d6df;
+    background: hsla(194, 38%, 80%, 1);
 }
 
 .havblaa-5 {
-    background: #e6f3f8;
+    background: hsla(197, 56%, 94%, 1);
 }
 
 .havblaa-6 {
-    background: #f3f8fa;
+    background: hsla(197, 41%, 97%, 1);
 }
 
 .groen-1 {
     color: #fff;
-    background: #33826d;
+    background: hsla(164, 43%, 31%, 1);
 }
 
 .groen-2 {
     color: #fff;
-    background: #3a947c;
+    background: hsla(164, 44%, 35%, 1);
 }
 
 .groen-3 {
-    background: #98c0b7;
+    background: hsla(167, 24%, 67%, 1);
 }
 
 .groen-4 {
-    background: #b8d3cd;
+    background: hsla(167, 23%, 77%, 1);
 }
 
 .groen-5 {
-    background: #e9f2ef;
+    background: hsla(160, 26%, 93%, 1);
 }
 
 .groen-6 {
-    background: #f6fcfa;
+    background: hsla(160, 50%, 98%, 1);
 }
 
 .jord-1 {
     color: #fff;
-    background: #524631;
+    background: hsla(38, 25%, 26%, 1);
 }
 
 .jord-2 {
     color: #fff;
-    background: #877454;
+    background: hsla(38, 23%, 43%, 1);
 }
 
 .jord-3 {
-    background: #e5decd;
+    background: hsla(43, 32%, 85%, 1);
 }
 
 .jord-4 {
-    background: #f5f1e9;
+    background: hsla(40, 38%, 94%, 1);
 }
 
 .jord-5 {
-    background: #f9f5f1;
+    background: hsla(30, 40%, 96%, 1);
 }
 
 .orange-1 {
     color: #fff;
-    background: #af3901;
+    background: hsla(19, 99%, 35%, 1);
 }
 
 .orange-2 {
     color: #fff;
-    background: #de790b;
+    background: hsla(31, 91%, 46%, 1);
 }
 
 .orange-3 {
-    background: #f5e097;
+    background: hsla(47, 82%, 78%, 1);
 }
 
 .orange-4 {
-    background: #f6edce;
+    background: hsla(47, 69%, 89%, 1);
 }
 
 .orange-5 {
-    background: #fcf7e5;
+    background: hsla(47, 79%, 94%, 1);
 }
 
 .roed-1 {
     color: #fff;
-    background: #a42104;
+    background: hsla(11, 95%, 33%, 1);
 }
 
 .roed-2 {
     color: #fff;
-    background: #c64022;
+    background: hsla(11, 71%, 45%, 1);
 }
 
 .roed-3 {
-    background: #e27c5a;
+    background: hsla(15, 70%, 62%, 1);
 }
 
 .roed-4 {
-    background: #f1b8a4;
+    background: hsla(16, 73%, 79%, 1);
 }
 
 .roed-5 {
-    background: #f8e4dd;
+    background: hsla(16, 66%, 92%, 1);
 }
 
 @media only screen {
@@ -291,7 +344,8 @@
         padding: 0;
         font-style: normal;
     }
-    strong, b {
+    strong,
+    b {
         font-weight: 600;
     }
 
@@ -390,7 +444,7 @@
     }
 
     a.visited {
-        color: #3e586e;
+        color: #004e6c;
     }
 
     button:focus,
@@ -402,7 +456,6 @@
         outline: 4px solid #febb30;
         outline-offset: 0;
     }
-
     a:focus {
         outline: none;
         background: #febb30;
@@ -410,6 +463,11 @@
 
     a.selected:focus {
         outline: none;
+    }
+    
+    a:active {
+        outline: none;
+        background:transparent;
     }
 
     .tile-link:hover {
@@ -507,6 +565,7 @@
         min-width: 320px;
         max-width: 1200px;
         margin: 0 auto;
+        /*padding: 0 24px;*/ /* DFD gutter */
         padding: 0 16px;
     }
 
@@ -515,8 +574,9 @@
         flex-shrink: 1;
         flex-basis: 0;
         min-width: 1px;
-        margin: 8px 0 8px 32px;
         /* DO NOT EDIT UNLESS EDITING THE GRID */
+        margin: 8px 0 8px 32px;
+        /*margin: 12px 0 12px 32px;*/ /* DFD gutter */
         padding: 0;
     }
 
@@ -527,6 +587,7 @@
 
     .stil-row.stil-solid .stil-col {
         /* ADJUSTS GUTTERS ON BOXED LAYOUT*/
+        /*margin-left: 24px;*/ /* DFD gutter */
         margin-left: 16px;
     }
 
@@ -779,7 +840,7 @@
         min-width: 10rem;
         max-width: 20rem;
     }
-    
+
     .stil-footer .horizontal {
         margin: 0;
         padding: 0;
