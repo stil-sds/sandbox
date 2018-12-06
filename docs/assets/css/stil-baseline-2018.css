@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "IBMPlexSans";
-    /*src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot");*/
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot");
     src:url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff2") format("woff2"), 
         url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff") format("woff"),
         url("../fonts/IBMPlexSans/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"),
@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: "IBMPlexSans";
-   /* src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot");*/
+   src: url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot");
     src:url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff2") format("woff2"),
         url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff") format("woff"),
         url("../fonts/IBMPlexSans/IBMPlexSans-SemiBold.eot?#iefix") format("embedded-opentype"),
@@ -26,7 +26,7 @@
 
 @font-face {
     font-family: "IBMPlexSans";
-   /* src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot");*/
+   src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot");
     src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff2") format("woff2"),
         url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff") format("woff"),
         url("../fonts/IBMPlexSans/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"),
@@ -385,8 +385,7 @@
     }
     .horizontal li:before {
         content: '\00a0\2022\00a0\00a0';
-        color: #999;
-        color: rgba(0, 0, 0, 0.5);
+        color: hsla(0, 0%, 60%, 1);
     }
     .horizontal li:first-child:before {
         content: '';
@@ -440,11 +439,11 @@
     }
 
     a:hover {
-        color: #000000;
+        color: hsla(0, 0%, 0%, 1);
     }
 
     a.visited {
-        color: #004e6c;
+        color: hsla(197, 100%, 21%, 1);
     }
 
     button:focus,
@@ -453,12 +452,12 @@
     .stil-topmenu a:focus,
     .tile-link:focus,
     .focus {
-        outline: 4px solid #febb30;
+        outline: 4px solid hsla(40, 99%, 59%, 1);
         outline-offset: 0;
     }
     a:focus {
         outline: none;
-        background: #febb30;
+        background: hsla(40, 99%, 59%, 1);
     }
 
     a.selected:focus {
@@ -488,15 +487,15 @@
     }
 
     a.darkBG {
-        color: #c4cbcf;
+        color: hsla(202, 10%, 79%, 1);
     }
 
     a.darkBG:hover {
-        background: #141516;
+        background: hsla(210, 5%, 8%, 1);
     }
 
     a.heading {
-        color: #141516;
+        color: hsla(210, 5%, 8%, 1);
     }
 
     a.heading:hover {
@@ -508,8 +507,8 @@
         top: -45px;
         left: 0;
         padding: 1rem 1.5rem;
-        background: #004e6c;
-        color: #ffffff;
+        background: hsla(197, 100%, 21%, 1);
+        color: hsla(360, 100%, 100%, 1);
         transition: top 0.2s ease-in-out;
         z-index: 100;
     }
@@ -531,7 +530,7 @@
         font-weight: 400;
         font-size: 2rem;
         line-height: 3.2rem;
-        color: #454545;
+        color: hsla(0, 0%, 27%, 1);
     }
 
     .manchet + p {
@@ -565,7 +564,7 @@
         min-width: 320px;
         max-width: 1200px;
         margin: 0 auto;
-        /*padding: 0 24px;*/ /* DFD gutter */
+        /*padding: 0 24px;*/ /* FDS gutter */
         padding: 0 16px;
     }
 
@@ -576,7 +575,7 @@
         min-width: 1px;
         /* DO NOT EDIT UNLESS EDITING THE GRID */
         margin: 8px 0 8px 32px;
-        /*margin: 12px 0 12px 32px;*/ /* DFD gutter */
+        /*margin: 12px 0 12px 32px;*/ /* FDS gutter */
         padding: 0;
     }
 
@@ -631,7 +630,7 @@
         width: 100%;
         margin: 0;
         padding: 0;
-        border-bottom: 1px solid #c4cbcf;
+        border-bottom: 1px solid hsla(202, 10%, 79%, 1);
     }
 
     /* MINIMAL FLEXBOX GRID, END */
@@ -654,7 +653,7 @@
 
     .stil-tjeneste-navn a,
     .stil-tjeneste-navn a:hover {
-        color: #000000;
+        color: hsla(0, 0%, 0%, 1);
         text-decoration: none;
         border-style: none;
     }
@@ -709,19 +708,19 @@
         font-weight: 400;
         white-space: nowrap;
         text-decoration: none;
-        color: #4f5355;
-        background: #ffffff;
-        border-bottom: 6px solid #fff;
+        color: hsla(200, 4%, 32%, 1);
+        background: hsla(360, 100%, 100%, 1);
+        border-bottom: 6px solid hsla(360, 100%, 100%, 1);
     }
 
     .stil-topmenu a:hover {
-        color: #004e6c;
+        color: hsla(197, 100%, 21%, 1);
         border-bottom: 6px solid #004e6c;
     }
 
     .stil-topmenu a.selected {
         font-weight: 600;
-        color: #004e6c;
+        color: hsla(197, 100%, 21%, 1);
         border-bottom: 6px solid #004e6c;
     }
 
@@ -732,11 +731,11 @@
         font-weight: 400;
         text-decoration: none;
         border-radius: 4px;
-        border: 2px solid #000;
+        border: 2px solid hsla(0, 0%, 0%, 1);
     }
 
     .stil-primary-button:hover {
-        background: #4f5355;
+        background: hsla(200, 4%, 32%, 1);
     }
 
     .single-line {
@@ -749,7 +748,7 @@
     .stil-footer .stil-col {
         padding-top: 24px;
         margin-top: 0;
-        background: #fff;
+        background: hsla(360, 100%, 100%, 1);
     }
 
     .stil-footer .stil-col .stil-h4 {
@@ -870,7 +869,7 @@
 
     .stil-footer,
     .stil-footer .stil-col {
-        background: #f7f8f8;
+        background: hsla(180, 7%, 97%, 1);
     }
     .stil-footer .stil-col {
         flex-basis: auto;
@@ -987,7 +986,7 @@
 
 @media print {
     body {
-        font-family: arial, sans-serif;
+        font-family: "IBMPlexSans", sans-serif;
     }
 
     a {
